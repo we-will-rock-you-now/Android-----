@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="270dp"
+    android:background="@mipmap/bkmc1"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="193dp"
+        android:layout_height="194dp"
+        android:layout_marginStart="10dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/ic_face" />
+    <TextView
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="作者：韩宝ying"
+        android:textColor="#916328"
+        android:textSize="25sp"
+        android:gravity="left"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="班级：计科0000"
+        android:textColor="#916328"
+        android:textSize="25sp"
+        android:gravity="left"/>
+
+    <Button
+        android:layout_width="61dp"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:textColor="@color/black"
+        android:text="微信:" />
+
+    <Button
+        android:layout_width="61dp"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:textColor="@color/black"
+        android:text="Q Q:" />
+
+
+</LinearLayout>
